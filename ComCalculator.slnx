@@ -3,5 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ComCalculator/ComCalculator.vcxproj" />
+  <Project Path="ComCalculator/ComCalculator.vcxproj" Id="c9b12eca-e5f1-4fee-81f3-3e7ea4485b57" />
+  <Project Path="ComCalculatorClientCpp/ComCalculatorClientCpp.vcxproj" Id="8646f603-91c8-4e03-8109-c8fc4b436321" />
 </Solution>
