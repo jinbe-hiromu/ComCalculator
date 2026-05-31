@@ -1,6 +1,5 @@
 // Calculator.idl - COM インターフェース定義
 
-// Windows の型定義をインポート
 import "oaidl.idl";
 import "ocidl.idl";
 
@@ -13,8 +12,16 @@ interface ICalculator : IUnknown
     HRESULT Divide([in] int a, [in] int b, [out, retval] int* result);
 };
 
+// クラス定義（CLSID を追加）
+[uuid(87654321-4321-4321-4321-098765432100)]
+coclass Calculator
+{
+    [default] interface ICalculator;
+};
+
 [version(1.0), uuid(87654321-4321-4321-4321-987654321000)]
 library CalculatorLib
 {
     interface ICalculator;
+    coclass Calculator;
 };

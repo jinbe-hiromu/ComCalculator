@@ -18,10 +18,13 @@
     <ClCompile Include="CalculatorImpl.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="CalculatorClient.cpp">
+    <ClCompile Include="ClassFactory.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="Calculator_i.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +32,21 @@
     <ClInclude Include="CalculatorImpl.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="ClassFactory.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="Calculator.idl">
       <Filter>ソース ファイル</Filter>
     </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ComCalculator.def">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="CalculatorClient.cpp">
+      <Filter>ソース ファイル</Filter>
+    </None>
   </ItemGroup>
 </Project>
